@@ -1,4 +1,2 @@
-import "./style.css";
-import "./modules/display.js";
-
-
+import './style.css';
+import './modules/display.js';
