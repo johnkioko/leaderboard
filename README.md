@@ -2,7 +2,7 @@
 
 # Leaderboard Game
 
-> This is a basic leaderboard game project that is still under development bundled with webpack.
+> This is a basic leaderboard game project that uses provided API to fetch users and their scores and displays them.The game is still under development and its bundled with webpack.
 
 ## Built With
 
@@ -27,7 +27,6 @@ Before running this project , you need to install dependencies libraries, initia
 
 once you have done that, you can find editable html, css, and JavaScript files in the src directory.
 
-
 ### Prerequisites
 
 Any browser
@@ -37,7 +36,7 @@ Any browser
 👤 **John Mutisya**
 
 - GitHub: [@githubhandle](https://github.com/johnkioko)
-- Twitter: [@twitterhandle](https://twitter.com/@john_the_web_dev)
+- Twitter: [@twitterhandle](https://twitter.com/@John_Web_Dev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/johnkioko)
 
 ## 🤝 Contributing
