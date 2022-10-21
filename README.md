@@ -22,10 +22,12 @@
 
 To get a local copy up and running follow these simple example steps.
 
-To fork this project copy the link from github and clone it on your local repository.
-Before running this project , you need to install dependencies libraries, initialize npm by running npm init -y, npm run build and start your development server with npm start.
+Go to github and clone the repository
 
-once you have done that, you can find editable html, css, and JavaScript files in the src directory.
+- git clone https://github.com/johnkioko/leaderboard.git
+- cd leaderboard
+- npm install
+- npm start
 
 ### Prerequisites
 
