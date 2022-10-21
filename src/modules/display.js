@@ -1,10 +1,10 @@
 /* eslint-disable */
-const userName = document.querySelector('.name-input');
-const userScore = document.querySelector('.score-input');
-const submitBtn = document.querySelector('.form-submit');
-const refreshBtn = document.querySelector('.refresh');
+const userName = document.querySelector(".name-input");
+const userScore = document.querySelector(".score-input");
+const submitBtn = document.querySelector(".form-submit");
+const refreshBtn = document.querySelector(".refresh");
 const endpoint = new URL(
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiYu2SZ3z9RSy8b97AHH/scores',
+  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WiYu2SZ3z9RSy8b97AHH/scores"
 );
 
 const postData = async () => {
@@ -16,13 +16,13 @@ const postData = async () => {
   }
 
   const response = await fetch(endpoint, {
-    method: 'POST',
+    method: "POST",
     headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
+      Accept: "application/json",
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      name: 'leaderboard-game',
+      name: "leaderboard-game",
       user: name,
       score: Number(score),
     }),
@@ -30,7 +30,7 @@ const postData = async () => {
 };
 
 const loadData = async () => {
-  const userScores = document.getElementById('user-data');
+  const userScores = document.getElementById("user-data");
 
   const response = await fetch(endpoint);
 
@@ -38,26 +38,28 @@ const loadData = async () => {
 
   Object.entries(data).map((entry) => {
     const value = entry[1];
-    let userData = '';
+    let userData = "";
 
-    value.forEach((e) => {
-      userData += `
+    value
+      .sort((a, b) => b.score - a.score)
+      .forEach((e) => {
+        userData += `
       <h4 class="user-score">${e.user} : ${e.score}</h4>`;
-    });
+      });
     userScores.innerHTML = userData;
   });
 };
 
-submitBtn.addEventListener('click', (e) => {
+submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
   postData();
 
-  userName.value = '';
-  userScore.value = '';
+  userName.value = "";
+  userScore.value = "";
 });
 
-refreshBtn.addEventListener('click', (e) => {
+refreshBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
   loadData();
