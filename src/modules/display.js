@@ -44,7 +44,11 @@ const loadData = async () => {
       .sort((a, b) => b.score - a.score)
       .forEach((e) => {
         userData += `
-      <h4 class="user-score">${e.user} : ${e.score}</h4>`;
+      <div class="user-score-display">
+      <h4 class="user-name">${e.user} : </h4>
+      <h4 class="user-score">${e.score}</h4>
+      </div>
+      `;
       });
     userScores.innerHTML = userData;
   });
