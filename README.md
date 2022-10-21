@@ -2,7 +2,7 @@
 
 # Leaderboard Game
 
-> This is a basic leaderboard game project that uses provided API to fetch users and their scores and displays them.The game is still under development and its bundled with webpack.
+> This is a score game project that uses provided leaderboard API to fetch users and their scores and displays them.The game is bundled with webpack.
 
 ## Built With
 
@@ -23,7 +23,7 @@
 To get a local copy up and running follow these simple example steps.
 
 To fork this project copy the link from github and clone it on your local repository.
-Before running this project , you need to install dependencies libraries, initialize npm by running npm init -y, run npm run build and start your development server with npm start.
+Before running this project , you need to install dependencies libraries, initialize npm by running npm init -y, npm run build and start your development server with npm start.
 
 once you have done that, you can find editable html, css, and JavaScript files in the src directory.
 
