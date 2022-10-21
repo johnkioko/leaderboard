@@ -1,7 +1,7 @@
 body {
   background-image: url("./images/yarn.jpeg");
   background-size: cover;
-  font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
 }
 
@@ -18,7 +18,7 @@ h1 {
 
 .main,
 .scores,
-.user-score-display{
+.user-score-display {
   display: flex;
   justify-content: space-between;
 }
@@ -80,12 +80,12 @@ h1 {
 
 .form-submit {
   margin-left: 19%;
-  background: #1C7947;
+  background: #1c7947;
   margin-bottom: 1rem;
 }
 
 .refresh {
-  background: #2C2891;
+  background: #2c2891;
 }
 
 #user-data {
@@ -110,5 +110,5 @@ h1 {
 #clock {
   text-align: center;
   margin: 1rem auto;
-  color: #2C2891
+  color: #2c2891;
 }
