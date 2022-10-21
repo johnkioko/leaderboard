@@ -1,3 +1,10 @@
+body {
+  background-image: url("./images/yarn.jpeg");
+  background-size: cover;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
 .wrapper {
   padding: 0;
   margin: 0 auto;
@@ -5,55 +12,103 @@
   width: 90%;
 }
 
-.main {
+h1 {
+  color: #fff;
+}
+
+.main,
+.scores,
+.user-score-display {
   display: flex;
   justify-content: space-between;
+}
+
+.main {
+  background: white;
+  max-width: 80%;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 4rem auto;
 }
 
 .recent-scores,
 .add-score {
-  width: 40%;
-  padding: 0 0.5rem;
+  width: 45%;
+  padding: 0 2rem;
 }
 
 .scores {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-.user-score {
-  padding: 0.5rem;
+.user-score-display {
+  align-items: center;
 }
 
-.user-score:nth-child(even) {
+.user-name {
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+
+.user-score {
+  padding-right: 1rem;
+}
+
+.user-score-display:nth-child(even) {
   background-color: #d3d3d3;
 }
 
-.user-score:nth-child(odd) {
-  padding: 0 0.5rem;
-  margin-top: 0;
-  margin-bottom: 0;
+.name-input,
+.score-input {
+  padding: 0.3rem;
+  border: 2px solid #000;
 }
 
-.user-score:nth-child(1) {
-  margin-top: 1rem;
+.form-submit,
+.refresh {
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 4px 6px 10px #000;
 }
 
 .form-submit {
-  margin-left: 24.8%;
-  box-shadow: 4px 4px 5px #000;
+  margin-left: 19%;
+  background: #1c7947;
+  margin-bottom: 1rem;
+}
+
+.refresh {
+  background: #2c2891;
 }
 
 #user-data {
   border: 3px solid #000;
+  border-radius: 4px;
+  margin-bottom: 2rem;
 }
 
 #footer {
   width: 100%;
-  height: 3rem;
-  background-color: #808080;
+  height: auto;
+  max-height: 100vh;
+  margin-top: 1rem;
+  background-color: #fff;
   position: fixed;
   bottom: 0;
   left: 0;
+  border: 3px solid #000;
+  border-radius: 4px;
+}
+
+#clock {
+  text-align: center;
+  margin: 1rem auto;
+  color: #2c2891;
 }
