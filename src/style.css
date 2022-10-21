@@ -22,22 +22,23 @@
   align-items: center;
 }
 
+.user-score-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+
 .user-score {
-  padding: 0.5rem;
+  padding-right: 1rem;
 }
 
-.user-score:nth-child(even) {
+.user-score-display:nth-child(even) {
   background-color: #d3d3d3;
-}
-
-.user-score:nth-child(odd) {
-  padding: 0 0.5rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.user-score:nth-child(1) {
-  margin-top: 1rem;
 }
 
 .form-submit {
