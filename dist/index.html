@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Leaderboard</h1>
+      </header>
+
+      <section class="main">
+        <div class="recent-scores">
+          <div class="scores">
+            <h2>Recent Scores</h2>
+            <button class="refresh" type="submit">Refresh</button>
+          </div>
+
+          <div id="user-data"></div>
+        </div>
+
+        <div class="add-score">
+          <div class="score-heading"><h2>Add your score</h2></div>
+          <form class="form">
+            <input class="name-input" type="text" placeholder="Your name" />
+            <br />
+            <br />
+            <input class="score-input" type="number" placeholder="Your score" />
+            <br />
+            <br />
+            <button class="form-submit">submit</button>
+          </form>
+        </div>
+      </section>
+
+      <footer id="footer"></footer>
+    </div>
+  </body>
+</html>

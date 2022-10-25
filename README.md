@@ -1,56 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard Game
 
-> Description the project.
-
+> This is a score game project that uses provided leaderboard API to fetch users and their scores and displays them.The game is bundled with webpack.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Webpack
+- CSS
+- JavaScript
+- Git and Github
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link]()
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+\*\* this project runs on any browser
 
 To get a local copy up and running follow these simple example steps.
 
+Go to github and clone the repository
+
+- git clone https://github.com/johnkioko/leaderboard.git
+- cd leaderboard
+- npm install
+- npm start
+
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Any browser
 
 ## Authors
 
-👤 **Author1**
+👤 **John Mutisya**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/johnkioko)
+- Twitter: [@twitterhandle](https://twitter.com/@John_Web_Dev)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/johnkioko)
 
 ## 🤝 Contributing
 
@@ -70,6 +59,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.MD) licensed.
