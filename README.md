@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Live Demo Link](https://johnkioko.github.io/leaderboard/dist/)
 
 ## Getting Started
 
