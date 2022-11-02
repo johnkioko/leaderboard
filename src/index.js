@@ -1,7 +1,9 @@
-import './style.css';
-import './modules/display.js';
+import "./style.css";
+import "./modules/display.js";
 
-const clock = document.getElementById('clock');
+const clock = document.getElementById("clock");
+const showTime = () => {
+  clock.innerHTML = new Date().toLocaleTimeString();;
+};
+setInterval(showTime, 1000);
 
-const time = new Date();
-clock.innerHTML = time;
